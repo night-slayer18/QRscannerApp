@@ -16,7 +16,7 @@ public class ScanActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.scan_activity);
         btn_scan= findViewById(R.id.btn_scan);
         btn_scan.setOnClickListener(v->{
             scanCode();
